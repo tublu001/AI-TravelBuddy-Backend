@@ -1,0 +1,271 @@
+2023-11-02 12:11:39.654  WARN 1136 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/tublu/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/tublu/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-11-02 12:11:39.675  INFO 1136 --- [main] c.d.o.t.TravelAssistantApplicationTests  : Starting TravelAssistantApplicationTests using Java 20.0.1 on tublu-PC with PID 1136 (started by tublu in E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend)
+2023-11-02 12:11:39.678  INFO 1136 --- [main] c.d.o.t.TravelAssistantApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-11-02 12:11:40.705  INFO 1136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 12:11:40.932  INFO 1136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 218 ms. Found 1 JPA repository interfaces.
+2023-11-02 12:11:41.450  INFO 1136 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 12:11:41.508  INFO 1136 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-11-02 12:11:41.674  INFO 1136 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-02 12:11:41.802  INFO 1136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-02 12:11:41.995  INFO 1136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-02 12:11:42.009  INFO 1136 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-11-02 12:11:42.550  INFO 1136 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 12:11:42.558  INFO 1136 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:11:43.653  WARN 1136 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 12:11:44.473  INFO 1136 --- [main] c.d.o.t.TravelAssistantApplicationTests  : Started TravelAssistantApplicationTests in 5.096 seconds (JVM running for 5.967)
+2023-11-02 12:11:44.680  INFO 1136 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:11:44.682  INFO 1136 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-02 12:11:44.684  INFO 1136 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-02 12:12:03.579  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Starting TravelAssistantApplication using Java 20.0.1 on tublu-PC with PID 12436 (E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend\target\classes started by tublu in E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend)
+2023-11-02 12:12:03.580  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-02 12:12:03.622  INFO 12436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 12:12:03.623  INFO 12436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 12:12:04.785  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 12:12:04.966  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174 ms. Found 1 JPA repository interfaces.
+2023-11-02 12:12:05.475  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-11-02 12:12:05.481  INFO 12436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-02 12:12:05.481  INFO 12436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-11-02 12:12:05.556  INFO 12436 --- [restartedMain] o.a.c.c.C.[.[.[/travel_assistant]        : Initializing Spring embedded WebApplicationContext
+2023-11-02 12:12:05.557  INFO 12436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1934 ms
+2023-11-02 12:12:05.576  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-02 12:12:05.755  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-02 12:12:05.763  INFO 12436 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:file:./travelbuddyDB'
+2023-11-02 12:12:05.866  INFO 12436 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 12:12:05.912  INFO 12436 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-11-02 12:12:06.045  INFO 12436 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-02 12:12:06.129  INFO 12436 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-11-02 12:12:06.592  INFO 12436 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 12:12:06.598  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:12:07.361  WARN 12436 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 12:12:07.518  INFO 12436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-02 12:12:07.680  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/travel_assistant'
+2023-11-02 12:12:07.828  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Started TravelAssistantApplication in 4.56 seconds (JVM running for 5.337)
+2023-11-02 12:16:21.868  INFO 12436 --- [http-nio-8082-exec-6] o.a.c.c.C.[.[.[/travel_assistant]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 12:16:21.870  INFO 12436 --- [http-nio-8082-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-02 12:16:21.889  INFO 12436 --- [http-nio-8082-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2023-11-02 12:16:25.070  WARN 12436 --- [http-nio-8082-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/
+2023-11-02 12:16:28.551  WARN 12436 --- [http-nio-8082-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/
+2023-11-02 12:21:11.628  WARN 12436 --- [http-nio-8082-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/controller/v1/swagger-ui.html
+2023-11-02 12:21:16.070  WARN 12436 --- [http-nio-8082-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/controller/v1/swagger-ui
+2023-11-02 12:21:19.234  WARN 12436 --- [http-nio-8082-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/controller/v1/
+2023-11-02 12:22:03.468  WARN 12436 --- [http-nio-8082-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/api/v1/controller/v1/swagger-ui
+2023-11-02 12:22:12.551  WARN 12436 --- [http-nio-8082-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/api/v1/swagger-ui
+2023-11-02 12:22:18.025  WARN 12436 --- [http-nio-8082-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/api/v1/swagger-ui.html
+2023-11-02 12:23:57.469  WARN 12436 --- [http-nio-8082-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/api/v1/swagger-ui/index.html
+2023-11-02 12:24:01.034  WARN 12436 --- [http-nio-8082-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/api/v1/swagger-ui/index.html
+2023-11-02 12:24:07.744  WARN 12436 --- [http-nio-8082-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /travel_assistant/controller/v1/swagger-ui/index.html
+2023-11-02 12:25:04.571  INFO 12436 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-11-02 12:25:04.589  INFO 12436 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-02 12:25:04.592  INFO 12436 --- [Thread-5] o.a.c.c.C.[.[.[/travel_assistant]        : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-02 12:25:04.611  INFO 12436 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:25:04.614  INFO 12436 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-02 12:25:05.027  INFO 12436 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-02 12:25:05.100  INFO 12436 --- [restartedMain] c.d.o.t.c.v.TravelAssistantBotController : Application Stareed
+2023-11-02 12:25:05.139  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Starting TravelAssistantApplication using Java 20.0.1 on tublu-PC with PID 12436 (E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend\target\classes started by tublu in E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend)
+2023-11-02 12:25:05.140  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-02 12:25:05.653  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 12:25:05.662  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2023-11-02 12:25:05.754  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-11-02 12:25:05.756  INFO 12436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-02 12:25:05.756  INFO 12436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-11-02 12:25:05.780  INFO 12436 --- [restartedMain] o.a.c.c.C.[.[.[/travel_assistant]        : Initializing Spring embedded WebApplicationContext
+2023-11-02 12:25:05.781  INFO 12436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 639 ms
+2023-11-02 12:25:05.789  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-11-02 12:25:05.844  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-11-02 12:25:05.845  INFO 12436 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:file:./travelbuddyDB'
+2023-11-02 12:25:05.863  INFO 12436 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 12:25:05.868  INFO 12436 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-11-02 12:25:05.926  INFO 12436 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 12:25:05.926  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:25:06.033  WARN 12436 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 12:25:06.068  INFO 12436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-02 12:25:06.122  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/travel_assistant'
+2023-11-02 12:25:06.159  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Started TravelAssistantApplication in 1.052 seconds (JVM running for 783.668)
+2023-11-02 12:25:06.160  INFO 12436 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-02 12:25:10.290  INFO 12436 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[.[/travel_assistant]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 12:25:10.290  INFO 12436 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-02 12:25:10.292  INFO 12436 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-11-02 12:26:29.908  INFO 12436 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-11-02 12:26:29.921  INFO 12436 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-02 12:26:29.921  INFO 12436 --- [Thread-8] o.a.c.c.C.[.[.[/travel_assistant]        : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-02 12:26:29.925  INFO 12436 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:26:29.925  INFO 12436 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-11-02 12:26:30.022  INFO 12436 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-11-02 12:26:30.098  INFO 12436 --- [restartedMain] c.d.o.t.c.v.TravelAssistantBotController : Application Stareed
+2023-11-02 12:26:30.127  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Starting TravelAssistantApplication using Java 20.0.1 on tublu-PC with PID 12436 (E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend\target\classes started by tublu in E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend)
+2023-11-02 12:26:30.127  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-02 12:26:30.337  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 12:26:30.343  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2023-11-02 12:26:30.421  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-11-02 12:26:30.422  INFO 12436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-02 12:26:30.422  INFO 12436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-11-02 12:26:30.448  INFO 12436 --- [restartedMain] o.a.c.c.C.[.[.[/travel_assistant]        : Initializing Spring embedded WebApplicationContext
+2023-11-02 12:26:30.448  INFO 12436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 312 ms
+2023-11-02 12:26:30.454  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-11-02 12:26:30.469  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-11-02 12:26:30.469  INFO 12436 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:file:./travelbuddyDB'
+2023-11-02 12:26:30.486  INFO 12436 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 12:26:30.490  INFO 12436 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-11-02 12:26:30.533  INFO 12436 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 12:26:30.534  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:26:30.664  WARN 12436 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 12:26:30.805  INFO 12436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-02 12:26:30.876  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/travel_assistant'
+2023-11-02 12:26:30.878  WARN 12436 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2023-11-02 12:26:30.879  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:26:30.880  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-11-02 12:26:30.965  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-11-02 12:26:30.977  INFO 12436 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-02 12:26:30.984  INFO 12436 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-11-02 12:26:31.012 ERROR 12436 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.26.jar:5.3.26]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.10.jar:2.7.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.10.jar:2.7.10]
+	at com.dev.openai.travelassistant.TravelAssistantApplication.main(TravelAssistantApplication.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.10.jar:2.7.10]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:220) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1307) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.26.jar:5.3.26]
+	... 17 common frames omitted
+
+2023-11-02 12:26:32.442  INFO 12436 --- [restartedMain] c.d.o.t.c.v.TravelAssistantBotController : Application Stareed
+2023-11-02 12:26:32.463  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Starting TravelAssistantApplication using Java 20.0.1 on tublu-PC with PID 12436 (E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend\target\classes started by tublu in E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend)
+2023-11-02 12:26:32.463  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-02 12:26:32.627  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 12:26:32.633  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2023-11-02 12:26:32.687  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-11-02 12:26:32.688  INFO 12436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-02 12:26:32.688  INFO 12436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-11-02 12:26:32.711  INFO 12436 --- [restartedMain] o.a.c.c.C.[.[.[/travel_assistant]        : Initializing Spring embedded WebApplicationContext
+2023-11-02 12:26:32.711  INFO 12436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 246 ms
+2023-11-02 12:26:32.718  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-11-02 12:26:32.733  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-11-02 12:26:32.733  INFO 12436 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:file:./travelbuddyDB'
+2023-11-02 12:26:32.746  INFO 12436 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 12:26:32.749  INFO 12436 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-11-02 12:26:32.782  INFO 12436 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 12:26:32.782  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:26:32.881  WARN 12436 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 12:26:32.913  INFO 12436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-02 12:26:32.958  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/travel_assistant'
+2023-11-02 12:26:32.993  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Started TravelAssistantApplication in 0.547 seconds (JVM running for 870.502)
+2023-11-02 12:26:32.994  INFO 12436 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-02 12:26:41.071  INFO 12436 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[.[/travel_assistant]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 12:26:41.071  INFO 12436 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-02 12:26:41.073  INFO 12436 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-11-02 12:28:17.043  INFO 12436 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-11-02 12:28:17.055  INFO 12436 --- [Thread-12] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-02 12:28:17.055  INFO 12436 --- [Thread-12] o.a.c.c.C.[.[.[/travel_assistant]        : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-02 12:28:17.058  INFO 12436 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:28:17.058  INFO 12436 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-11-02 12:28:17.145  INFO 12436 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-11-02 12:28:17.197  INFO 12436 --- [restartedMain] c.d.o.t.c.v.TravelAssistantBotController : Application Stareed
+2023-11-02 12:28:17.234  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Starting TravelAssistantApplication using Java 20.0.1 on tublu-PC with PID 12436 (E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend\target\classes started by tublu in E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend)
+2023-11-02 12:28:17.234  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-02 12:28:17.481  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 12:28:17.490  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2023-11-02 12:28:17.584  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-11-02 12:28:17.585  INFO 12436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-02 12:28:17.585  INFO 12436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-11-02 12:28:17.611  INFO 12436 --- [restartedMain] o.a.c.c.C.[.[.[/travel_assistant]        : Initializing Spring embedded WebApplicationContext
+2023-11-02 12:28:17.611  INFO 12436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 374 ms
+2023-11-02 12:28:17.621  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-11-02 12:28:17.636  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-11-02 12:28:17.637  INFO 12436 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:file:./travelbuddyDB'
+2023-11-02 12:28:17.673  INFO 12436 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 12:28:17.677  INFO 12436 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-11-02 12:28:17.726  INFO 12436 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 12:28:17.727  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:28:17.859  WARN 12436 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 12:28:17.905  INFO 12436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-02 12:28:18.002  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/travel_assistant'
+2023-11-02 12:28:18.035  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Started TravelAssistantApplication in 0.833 seconds (JVM running for 975.544)
+2023-11-02 12:28:18.036  INFO 12436 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-02 12:28:18.134  INFO 12436 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[.[/travel_assistant]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 12:28:18.134  INFO 12436 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-02 12:28:18.134  INFO 12436 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-11-02 12:28:19.415  INFO 12436 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-11-02 12:28:19.427  INFO 12436 --- [Thread-20] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-02 12:28:19.427  INFO 12436 --- [Thread-20] o.a.c.c.C.[.[.[/travel_assistant]        : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-02 12:28:19.430  INFO 12436 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:28:19.431  INFO 12436 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-11-02 12:28:19.447  INFO 12436 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-11-02 12:28:19.481  INFO 12436 --- [restartedMain] c.d.o.t.c.v.TravelAssistantBotController : Application Stareed
+2023-11-02 12:28:19.499  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Starting TravelAssistantApplication using Java 20.0.1 on tublu-PC with PID 12436 (E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend\target\classes started by tublu in E:\MY PROJECTS DATA\Smart AI Travel Assistant\AI-TravelBuddy-Backend)
+2023-11-02 12:28:19.499  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-02 12:28:19.676  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 12:28:19.684  INFO 12436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2023-11-02 12:28:19.775  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-11-02 12:28:19.776  INFO 12436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-02 12:28:19.776  INFO 12436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-11-02 12:28:19.799  INFO 12436 --- [restartedMain] o.a.c.c.C.[.[.[/travel_assistant]        : Initializing Spring embedded WebApplicationContext
+2023-11-02 12:28:19.800  INFO 12436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 300 ms
+2023-11-02 12:28:19.807  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-11-02 12:28:19.819  INFO 12436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-11-02 12:28:19.820  INFO 12436 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:file:./travelbuddyDB'
+2023-11-02 12:28:19.832  INFO 12436 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 12:28:19.835  INFO 12436 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-11-02 12:28:19.861  INFO 12436 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 12:28:19.861  INFO 12436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:28:19.951  WARN 12436 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 12:28:19.978  INFO 12436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-02 12:28:20.019  INFO 12436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/travel_assistant'
+2023-11-02 12:28:20.048  INFO 12436 --- [restartedMain] c.d.o.t.TravelAssistantApplication       : Started TravelAssistantApplication in 0.564 seconds (JVM running for 977.557)
+2023-11-02 12:28:20.049  INFO 12436 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-02 12:29:21.489  INFO 12436 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 12:29:21.490  INFO 12436 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-11-02 12:29:21.490  INFO 12436 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
