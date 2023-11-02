@@ -37,6 +37,8 @@ The project has delivered tangible results:
 To get started with the AI Travel Assistant, follow the instructions in the documentation. Explore the powerful features and witness the impact of cutting-edge technologies on travel assistance.
 
 API to be consumed by <a href="https://github.com/tublu001/AI-TravelBuddy-UI">UI application</a>
-![image](https://github.com/tublu001/AI-TravelBuddy-Backend/assets/42106913/16f18aa3-152e-4ed5-a132-ec0ec7f98a4f)
+
+![image](https://github.com/tublu001/AI-TravelBuddy-Backend/assets/42106913/f3bb8253-40c1-4a3a-9ce7-ca02c3e84d6f)
+
 
 Thank you for choosing our AI Travel Assistant. We look forward to enhancing your travel experience!
